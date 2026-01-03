@@ -59,3 +59,15 @@ clearBtn.addEventListener("click", function (e) {
     }
 });
 
+function forgotPassword() {
+    const email = prompt("Enter your email address:");
+    if (!email) return;
+
+    if (!email.includes("@")) {
+        alert("Please enter a valid email.");
+        return;
+    }
+    alert(
+        "If this email is registered, a password reset link has been sent."
+    );
+}
