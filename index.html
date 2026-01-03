@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+
+    <div class="align">
+        <div class="form">
+            <div id="title">
+                Registration Form
+            </div>
+            <form class="align2">
+                <div class="grid">
+                    <label for="fname" class="txt">First Name:</label>
+                    <label for="lname" class="txt">Last Name:</label>
+                    <input type="text" class="input" placeholder="first Name">
+                    <input type="text" class="input" placeholder="last Name">
+                </div>
+                <br>
+                <label for="nname" class="txt">Nickname:</label>
+                <input type="text" class="input" placeholder="nickname"><br><br>
+                <label for="email" class="txt">Email:</label>
+                <input type="email" class="input" placeholder="example@gmail.com"> <br><br>
+                <label for="pws" class="txt">Password:</label>
+                <input type="password" class="input" id="pws" placeholder="password">
+                <input type="checkbox" onclick="pws. type = this.checked? 'text': 'password'"><br><br>
+                <label for="dob" class="txt">Date of Birth:</label>
+                <input type="date" class="input" placeholder="MM/DD/YYYY"> <br><br>
+                <label for="gender" class="txt">Gender:</label>
+                <input type="checkbox" class="input2" value="male" name="male">
+                <label for="male" class="input2">Male</label>
+                <input type="checkbox" class="input2" value="female" name="female">
+                <label for="female" class="input2">Female</label>
+                <input type="checkbox" class="input2" value="other" name="other">
+                <label for="other" class="input2">Rather Not Say</label> <br><br>
+                <label for="contact" class="txt">Contact:</label>
+                <input type="number" class="input" placeholder="03123456789"><br><br>
+                <label for="add" class="txt">Address:</label>
+                <input type="text" class="input" placeholder="Apartment, Building, Floor, etc."><br><br>
+
+                <div class="button">
+                    <button type="submit" id="submit">Submit</button>
+                    <button type="reset" id="clear">Clear</button>
+                </div>
+
+            </form>
+
+
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
